@@ -1,0 +1,29 @@
+{
+  "name": "qupload-bin",
+  "version": "1.0.0",
+  "keywords": [
+    "qshell",
+    "qiniu",
+    "qshell-bin"
+  ],
+  "description": "Bin wrapper for qshell qupload2",
+  "repository": "wjeek/qupload-bin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "qupload": "bin/cli.js"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "git-rev-sync": "^1.12.0",
+    "qshell-bin": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
