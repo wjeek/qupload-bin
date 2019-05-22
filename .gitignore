@@ -80,3 +80,5 @@ typings/
 
 # qshell
 vendor/
+
+.idea/
