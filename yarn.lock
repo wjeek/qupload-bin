@@ -1408,10 +1408,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-qshell-bin@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/qshell-bin/-/qshell-bin-2.0.0.tgz#1f0a9ea8f237d5b2e7b3f01ac19dd86c5ef89a09"
-  integrity sha512-kitde7dMO48LDVmQc1E92M63nAi7Mb3juugBI1z7QgzMdAtJQjdQkGG8ZbZH4qTMscjlUKQEyZWCjYfPQ/+XYg==
+qshell-bin@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/qshell-bin/-/qshell-bin-2.1.0.tgz#18aba4a17bedf477c49becc8a7724e291dc9ad1f"
+  integrity sha512-sLayucn/UghIJq4eLaEwTmbSlV9XYrg4tRSXo0IAszLdBU51YT971v+MG/AHapYw7ueKWSfKCqP468U7JJu16g==
   dependencies:
     download "5.0.3"
     fs-extra "^7.0.1"

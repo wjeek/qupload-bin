@@ -1,19 +1,10 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const { spawn } = require('child_process')
+const qshell = require('qshell-bin')
 
-const manifest = require('qshell-bin/manifest.json')
 const appRoot = require('app-root-path').require
 const config = appRoot('/package.json')
-const serviceVersion = require('git-rev-sync').short()
-
-const bin = path.join(
-  __dirname,
-  '../node_modules/qshell-bin',
-  manifest.destination,
-  manifest.filename[process.platform][process.arch]
-)
+const serviceVersion = require('git-rev-sync').short(null, 8)
 
 let args = process.argv.slice(2)
 
@@ -38,4 +29,4 @@ args = Object.keys(attrMap).reduce(
   ['qupload2']
 )
 
-spawn(bin, args, { stdio: 'inherit' })
+qshell(args)
